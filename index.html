@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodingChallenge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fasthand&family=Poppins&family=Rubik+Iso&display=swap" rel="stylesheet">
+</head>
+
+<body>
+   <!--Creo un container che sarà lo sfondo nero trasparente che contiene gli elementi-->
+    <div class="container">
+        <header> 
+            <!--Logo-->
+            <div class="immagine-logo">
+                <img class='logo' src="logo.png" alt="logo con limone e scritta LIM">
+            </div>
+            <!--Titolo-->
+            <div class="titolo">
+                <h2 class="logo-text">Taking Booleaners from A to B</h2>
+            </div> 
+        </header>
+
+        <nav>
+            <!--Bottoni di prenotazione-->
+            <div class="bottoni">
+                <div class="prenotazioni"><button>Prenota</button></div>
+                <div class="prenotazioni"><button>Termina Prenotazione</button></div>
+                <div class="prenotazioni"><button>Accendi Luci</button></div>
+            </div>
+            
+        </nav>
+
+        <main>
+            <!--Monopattini disponibili-->
+            <div class="row">
+                <input type="checkbox">
+                <h3>Monopattino Gino22</h3>
+                <!--Creo un div così che possa inserire lo stato della carica sotto la via e avere gli H6 con un inline-block per via dell'immagine della freccia posta subito prima-->
+                <div>
+                    <img class='arrow' src="https://thypix.com/wp-content/uploads/2020/04/white-arrow-95-700x395.png" alt="freccia">
+                    <h6>Via Guadalametri - a 220 metri da te</h6>
+                </div>
+                <h6>Stato carica:</h6>
+                <div class="carica1"></div>
+            </div>
+
+            <div class="row">
+                <input type="checkbox">
+                <h3>Monopattino Mike24</h3>
+                <div>
+                    <img class='arrow' src="https://thypix.com/wp-content/uploads/2020/04/white-arrow-95-700x395.png" alt="freccia">
+                    <h6>Via Ricciardoni - a 420 metri da te</h6>
+                </div>
+                <h6>Stato carica:</h6>
+                <div class="carica2"></div>
+            </div>
+
+            <div class="row">
+                <input type="checkbox">
+                <h3>Monopattino Fede154</h3>
+                <div>
+                    <img class='arrow' src="https://thypix.com/wp-content/uploads/2020/04/white-arrow-95-700x395.png" alt="freccia">
+                    <h6>Via Mentarini - a 490 metri da te</h6>
+                </div>
+                <h6>Stato carica:</h6>
+                <div class="carica3"></div>
+            </div>
+
+        </main>
+    </div>
+   
+</body>
+
+</html>
